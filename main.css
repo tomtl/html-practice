@@ -59,15 +59,18 @@ a:hover {
   width: 700px;
   margin: 0 auto;
 }
-.projects ul, .badges ul, .articles ul, .skills ul{
+.projects ul, .badges ul, .articles ul, .skills ul, .footer ul{
   list-style-type: none;
 }
-.projects li, .badges li, .articles li, .skills li{
+.projects li, .badges li, .articles li, .skills li, .footer li{
   margin-bottom: 10px;
 }
 .badges img {
   float: left;
   padding-right: 10px;
+}
+.skills {
+  margin-bottom: 20px;
 }
 .skills li {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -77,4 +80,9 @@ a:hover {
   display: inline;
   padding: 8px 8px 8px 8px;
   margin-right: 10px;
+}
+.footer {
+  background-color: #999999;
+  text-align: center;
+  padding: 20px 0 20px 0;
 }
